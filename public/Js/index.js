@@ -1,5 +1,9 @@
 
 document.getElementById("create-form").addEventListener("submit", function(e){
     e.preventDefault();
-    alert("enviou o form");
+    
+    const email = document.getElementById("email-create-input").value;
+    const password=document.getElementById("password-create-input").value;
+    
+    console.log(email, password);
 })
